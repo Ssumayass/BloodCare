@@ -1,4 +1,4 @@
-fetch('http://localhost:8090/rest/apps/defaultApp/searchers/defaultElastic?q=*', {
+fetch('', {
     method: 'GET',
     headers: {
         'Authorization': 'Basic ' + btoa('admin:superadmin') // Lägg till ditt användarnamn och lösenord här
